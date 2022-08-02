@@ -36,6 +36,7 @@ public class Circle extends Sharp {
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +
+                "pi='" + pi + '\'' +
                 "area='" + area() + '\'' +
                 "perimeter='" + perimeter() + '\'' +
                 '}';
