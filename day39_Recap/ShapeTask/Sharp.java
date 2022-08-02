@@ -33,6 +33,14 @@ public class Sharp {
     public double perimeter(){
         return 0;
     }
+
+    public String toString() {
+        return "Sharp{" +
+                "name='" + name + '\'' +
+                "area='" + area() + '\'' +
+                "perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
 /*
 Shape:
