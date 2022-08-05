@@ -1,9 +1,9 @@
 package day40_FinalKeyword;
 
-public class DOg extends Animal{
+public class Dog extends Animal{
 
 
-    public DOg(String name, String breed, char gender, String color, String size, int age) {
+    public Dog(String name, String breed, char gender, String color, String size, int age) {
         super(name, breed, gender, color, size, age);
     }
 
@@ -15,6 +15,9 @@ public class DOg extends Animal{
         //System.out.println( getName() + " is drinking beer");
     //}
 
+    public void bark(){
+        System.out.println(getName() + " is barking");
+    }
 
 }
 // eating dog food
