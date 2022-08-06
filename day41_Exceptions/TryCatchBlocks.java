@@ -22,7 +22,7 @@ public class TryCatchBlocks {
             System.out.println("Arithmetic Exception was occurred");
         }
         System.out.println("Test1 completed");
-        System.out.println("-------------------");
+        System.out.println("-----------------------------------");
 
         System.out.println("Test2 started");
 
@@ -43,7 +43,7 @@ public class TryCatchBlocks {
 
         System.out.println("Test2 completed");
 
-        System.out.println("-------------------");
+        System.out.println("-----------------------------------------");
 
         System.out.println("Test3 started");
 
@@ -54,7 +54,7 @@ public class TryCatchBlocks {
         }
         System.out.println("Test3 completed");
 
-        System.out.println("-------------------");
+        System.out.println("-------------------------------------------");
 
         System.out.println("Hello");
 
@@ -66,7 +66,7 @@ public class TryCatchBlocks {
 
         System.out.println("Cydeo");
 
-        System.out.println("-------------------");
+        System.out.println("------------------------------------------");
 
         try {
             FileInputStream file = new FileInputStream("File path");
