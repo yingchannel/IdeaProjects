@@ -72,7 +72,7 @@ public abstract class AnimalTask {
     }
 
     public String toString() {
-        return getClass() + "{" +
+        return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
