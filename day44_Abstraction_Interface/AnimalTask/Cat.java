@@ -1,6 +1,6 @@
 package day44_Abstraction_Interface.AnimalTask;
 
-public final class Cat extends AnimalTask{
+public final class Cat extends AnimalTask implements Playable{
 
 
     public Cat(String name, String breed, char gender, int age, String size, String color) {
@@ -11,7 +11,14 @@ public final class Cat extends AnimalTask{
     public void eat() {
         System.out.println(getName() + " eats Biryani");
     }
+
+    @Override
+    public void play() {
+
+    }
 }
+
+
 
 /*
 	Cat
