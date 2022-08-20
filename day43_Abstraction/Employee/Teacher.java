@@ -1,6 +1,6 @@
 package day43_Abstraction.Employee;
 
-public class Teacher extends Employee{
+public final class Teacher extends Employee{
 
 
     public Teacher(String name, int age, char gender, int id, String jobTitle, double salary) {
